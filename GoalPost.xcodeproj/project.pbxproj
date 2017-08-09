@@ -12,6 +12,7 @@
 		0049254F1F3BA7E900D804BB /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049254E1F3BA7E900D804BB /* UIViewControllerExt.swift */; };
 		004925511F3BAC0800D804BB /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004925501F3BAC0800D804BB /* UIViewExt.swift */; };
 		004925531F3BAF3300D804BB /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004925521F3BAF3300D804BB /* UIButtonExt.swift */; };
+		004925551F3BB30900D804BB /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004925541F3BB30900D804BB /* FinishGoalVC.swift */; };
 		004B9FEA1F3B708200487B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004B9FE91F3B708200487B15 /* AppDelegate.swift */; };
 		004B9FEC1F3B708200487B15 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004B9FEB1F3B708200487B15 /* GoalsVC.swift */; };
 		004B9FEF1F3B708200487B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004B9FED1F3B708200487B15 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		0049254E1F3BA7E900D804BB /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		004925501F3BAC0800D804BB /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		004925521F3BAF3300D804BB /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		004925541F3BB30900D804BB /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		004B9FE61F3B708200487B15 /* GoalPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		004B9FE91F3B708200487B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		004B9FEB1F3B708200487B15 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				004B9FEB1F3B708200487B15 /* GoalsVC.swift */,
 				0049254C1F3BA68800D804BB /* CreateGoalVC.swift */,
+				004925541F3BB30900D804BB /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				004B9FEA1F3B708200487B15 /* AppDelegate.swift in Sources */,
 				0049254F1F3BA7E900D804BB /* UIViewControllerExt.swift in Sources */,
 				004925531F3BAF3300D804BB /* UIButtonExt.swift in Sources */,
+				004925551F3BB30900D804BB /* FinishGoalVC.swift in Sources */,
 				004B9FF21F3B708200487B15 /* GoalPost.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
