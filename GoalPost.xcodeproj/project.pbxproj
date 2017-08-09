@@ -13,6 +13,7 @@
 		004B9FF21F3B708200487B15 /* GoalPost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 004B9FF01F3B708200487B15 /* GoalPost.xcdatamodeld */; };
 		004B9FF41F3B708200487B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004B9FF31F3B708200487B15 /* Assets.xcassets */; };
 		004B9FF71F3B708200487B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004B9FF51F3B708200487B15 /* LaunchScreen.storyboard */; };
+		004BA0051F3B7CA100487B15 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BA0041F3B7CA100487B15 /* GoalCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		004B9FF31F3B708200487B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		004B9FF61F3B708200487B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		004B9FF81F3B708200487B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004BA0041F3B7CA100487B15 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004925491F3B7ED300D804BB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		004B9FDD1F3B708200487B15 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				004BA0011F3B70B400487B15 /* Extensions */,
-				004BA0021F3B70B400487B15 /* Enums */,
+				004925491F3B7ED300D804BB /* Enums */,
 				004B9FFF1F3B709E00487B15 /* View */,
 				004B9FFE1F3B709D00487B15 /* Controller */,
 				004B9FE91F3B708200487B15 /* AppDelegate.swift */,
@@ -81,6 +90,7 @@
 		004B9FFF1F3B709E00487B15 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				004BA0041F3B7CA100487B15 /* GoalCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,14 +100,6 @@
 			children = (
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		004BA0021F3B70B400487B15 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Enums;
-			path = "New Group/Enums";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004BA0051F3B7CA100487B15 /* GoalCell.swift in Sources */,
 				004B9FEC1F3B708200487B15 /* GoalsVC.swift in Sources */,
 				004B9FEA1F3B708200487B15 /* AppDelegate.swift in Sources */,
 				004B9FF21F3B708200487B15 /* GoalPost.xcdatamodeld in Sources */,
