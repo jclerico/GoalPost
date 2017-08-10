@@ -34,9 +34,9 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
     
     @IBAction func createGoalBtnWasPressed(_ sender: Any) {
         if pointsTextField.text != "" {
-        self.save { (complete) in
-            if complete {
-                dismiss(animated: true, completion: nil)
+            self.save { (complete) in
+                if complete {
+                    dismiss(animated: true, completion: nil)
                 }
             }
         }
@@ -56,19 +56,12 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
         goal.goalProgress = Int32(0)
         
         do {
-           try managedContext.save()
-            print("Successfully Saved Data")
+            try managedContext.save()
+            print("Successfully saved data.")
             completion(true)
         } catch {
-            debugPrint("Could not save: \(error)")
+            debugPrint("Could not save: \(error.localizedDescription)")
             completion(false)
         }
     }
-    
-    
-    
-    
-    
-    
-    
 }

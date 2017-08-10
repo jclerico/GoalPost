@@ -42,7 +42,7 @@ class CreateGoalVC: UIViewController, UITextViewDelegate {
     }
     
     @IBAction func longTermBtnWasPressed(_ sender: Any) {
-        goalType = .shortTerm
+        goalType = .longTerm
         longTermBtn.setSelectedColor()
         shortTermBtn.setDeselectedColor()
     }
